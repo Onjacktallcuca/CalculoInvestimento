@@ -4,6 +4,8 @@ Projeto para calculo de CDB com Angular CLI consumindo uma API feita no VisualSt
 
 Montando o ambiente
 =======
+Baixar ou clonar o repositório <git clone https://github.com/leovictorcvo/desafio-cdb.git>
+
 
 Backend
 -----------
