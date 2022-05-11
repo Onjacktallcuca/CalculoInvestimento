@@ -35,7 +35,7 @@ Instale as dependencias do npm (esse processo é necessário devido a alta deman
 Após a importação de todas as bibliotecas, é hora de finalmente roda o frontend no browser:
 >ng serve -o
 
-Obs: O SIStema 
+Obs: O sistema será iniciado através do browser default da máquina, caso queira testar com outro browser, o endereço do aplicativo é: http://localhost:4200/
 
 
 Testes
