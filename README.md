@@ -9,7 +9,7 @@ Baixar ou clonar o repositório:
 
 Execução
 =======
-Após o repositorio do sistema corretamente baixado, abro o prompt de comando e navegue até a pasta raíz do repositoróio.
+Após o repositorio do sistema corretamente baixado, abra o prompt de comando e navegue até a pasta raíz do repositoróio.
 
 Backend
 -----------
