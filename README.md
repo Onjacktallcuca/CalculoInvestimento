@@ -1,7 +1,7 @@
 
 # Cálculo de Investimentos em CDB com taxas prefixadas
 
-Projeto para cálculo de CDB com Angular CLI consumindo uma API feita no VisualStudio (Sdk="Microsoft.NET.Sdk.Web", TargetFramework>netcoreapp3.1., LangVersion 10).
+Projeto para cálculo de CDB com Angular 8 CLI consumindo uma API feita no VisualStudio (Sdk="Microsoft.NET.Sdk.Web", TargetFramework>netcoreapp3.1., LangVersion 10).
 
 Montando o ambiente
 =======
@@ -21,19 +21,20 @@ Navegue até a pasta do servidor da API
 Execute o servidor para subir para o host local
 >dotnet run
 
-O sistema deverá subir a PAPI para o ambiente local de host (localhost) no seguinte endereço: https://localhost:5001/api/CalculoInvestimento
+O sistema deverá subir a API para o ambiente local de host no seguinte endereço: https://localhost:5001/api/CalculoInvestimento
 
 
 Frontend
 -----------
-Abra um novo prompt de comando enavegue até a pasta raiz do sistema
+Abra um novo prompt de comando e navegue até a pasta raiz do repositório.
 Navegue até a pasta do servidor client da aplicação
 >cd CalculoInvestimento/Client/ 
 
-Instale as dependencias do npm (esse processo é necessário devido a alta demanda de arquivo gerados no node_modules, não sendo possivel subi-los para o Git por conta do limite de tamanho de 25 megas.) Para esse processo é necessário conexão com internet
+Instale as dependências do npm (esse processo é necessário devido a alta demanda de arquivos gerados no node_modules, não sendo possivel commit para o Git devido o limite de tamanho de 25 megas.) 
+Para esse processo é necessário conexão com internet.
 >npm i
 
-Após a importação de todas as bibliotecas, é hora de finalmente roda o frontend no browser:
+Após a importação de todas as bibliotecas, é hora de finalmente rodar o frontend no browser:
 >ng serve -o
 
 Obs: O sistema será iniciado através do browser default da máquina, caso queira testar com outro browser, o endereço do aplicativo é: http://localhost:4200/
