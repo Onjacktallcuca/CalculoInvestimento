@@ -1,0 +1,13 @@
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\bin\Debug\netcoreapp3.1\Desafio.API.Application.deps.json
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\bin\Debug\netcoreapp3.1\Desafio.API.Application.dll
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\bin\Debug\netcoreapp3.1\Desafio.API.Application.pdb
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\bin\Debug\netcoreapp3.1\Desafio.API.Domain.dll
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\bin\Debug\netcoreapp3.1\Desafio.API.Domain.pdb
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.csproj.AssemblyReference.cache
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.AssemblyInfoInputs.cache
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.AssemblyInfo.cs
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.csproj.CoreCompileInputs.cache
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.csproj.CopyComplete
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.dll
+C:\Users\gvmn\source\repos\DesafioCDB\backend\Desafio.API.Application\obj\Debug\netcoreapp3.1\Desafio.API.Application.pdb

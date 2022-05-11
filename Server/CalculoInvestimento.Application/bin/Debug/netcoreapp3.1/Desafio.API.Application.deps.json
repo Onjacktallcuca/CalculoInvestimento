@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Desafio.API.Application/1.0.0": {
+        "dependencies": {
+          "Desafio.API.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Desafio.API.Application.dll": {}
+        }
+      },
+      "Desafio.API.Domain/1.0.0": {
+        "runtime": {
+          "Desafio.API.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Desafio.API.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Desafio.API.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

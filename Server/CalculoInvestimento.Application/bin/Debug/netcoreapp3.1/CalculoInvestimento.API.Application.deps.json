@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CalculoInvestimento.API.Application/1.0.0": {
+        "dependencies": {
+          "CalculoInvestimento.API.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CalculoInvestimento.API.Application.dll": {}
+        }
+      },
+      "CalculoInvestimento.API.Domain/1.0.0": {
+        "runtime": {
+          "CalculoInvestimento.API.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculoInvestimento.API.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculoInvestimento.API.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

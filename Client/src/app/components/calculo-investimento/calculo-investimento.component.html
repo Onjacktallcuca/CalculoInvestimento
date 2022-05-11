@@ -1,0 +1,87 @@
+<div class="row h-100 justify-content-right align-items-right">
+  <!-- <div class="col-10 col-md-8 col-lg-7"> -->
+    <header class="d-flex align-items-center p-9 my-3 bg-secondary  ">
+        <h3 class="h3 mb-0 lh-1"></h3>
+    </header>
+    <main class="card my-2">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>C&aacute;lculo de investimentos CDB</h1>
+          <p>Insira os valores para simular a seu investimento em <b data-toggle="tooltip" data-placement="top" 
+            title="O CDB (Certificado de Depósito Bancário) é um investimento de renda fixa que oferece rendimento de acordo com o período de aplicação. Ele funciona como uma operação de crédito pessoal, em que o investidor empresta uma quantia para as instituições financeiras visando remuneração futura.">CDB* </b></p>
+        </div>
+      </div>
+    </main>
+    <main class="card my-2">
+      <div class="card-body">
+        <form [formGroup]="form">
+          <div class="row">
+            <div class="form-group col-12 col-md-6">
+              <label for="valor">Valor da aplica&ccedil;&atilde;o</label>
+              <input type="text" name="valor" formControlName="valor" class="form-control text-end" autofocus [ngClass]="cssValidator(f.valor)">
+              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.required">Campo com valor obrigatório</div>
+              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.min">Informar um valor monetário positivo</div>
+              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.max">Valor máximo é R$ 999.999.999.999,99</div>
+            </div>
+            <div class="form-group col-12 col-md-6">
+              <label for="meses">Qantidade de meses</label>
+              <input type="text" name="meses" formControlName="meses" class="form-control text-end" [ngClass]="cssValidator(f.meses)">
+              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.required">É obrigatório</div>
+              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.min">O prazo mínimo são 2 meses</div>
+              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.max">O prazo máximo são 120 meses</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="card-footer d-flex flex-wrap justify-content-between py-2">
+        <div class="col-12 col-md-5 mt-3 mt-md-0">
+          <button type="button" class="btn btn-outline-danger w-100" (click)="clearScreen()">Limpar</button>
+        </div>
+        <div class="col-12 col-md-5">
+          <button type="button" class="btn btn-success w-100" [disabled]="!form.valid || enviandoDados"
+          (click)="enviaDados()">Simular</button>
+        </div>
+      </div>
+    </main>
+    <div class="alert alert-danger" role="alert" *ngIf="erro">Erro ao executar calculo de investimento.</div>
+    <div class="card" *ngIf="!erro">
+        <div class="card-header py-1">
+            <h5 class="my-0 fw-normal" style="text-align: center;">Resultados da simulação</h5>
+        </div>
+        <div class="card-body">
+        <div class="container mt-3">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Valor bruto</th>
+                <th>Valor líquido</th>
+                <th>Valor Inicial</th>
+                <th>Meses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{ getCalculo.valor_bruto | currency : 'BRL' }}</td>
+                <td>{{ getCalculo.valor_liquido | currency : 'BRL' }}</td>
+                <td>{{ f.valor.value }}</td>
+                <td>{{ f.meses.value }}</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <div class="card-footer" >
+            <h5>Regras para cálculo</h5>
+            <small>*Informar um valor monetário positivo</small><br>
+            <small>*prazo em meses maior que 1 (um) para resgate da aplicação</small><br>
+            <small>Após solicitar o cálculo do investimento, a tela deve apresentar o resultado bruto e o resultado líquido do investimento.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</div>
+<script lang="javascript">
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>

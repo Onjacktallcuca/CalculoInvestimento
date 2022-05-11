@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.0.1</Version>
+    <Description>Api backend para cálculo de investimentos CDB</Description>
+    <Copyright>Onjacktallcuca (GNU GENERAL PUBLIC LICENSE)</Copyright>
+    <RepositoryUrl>https://github.com/Onjacktallcuca/CalculoInvestimento</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+	<LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoInvestimento.Domain\CalculoInvestimento.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

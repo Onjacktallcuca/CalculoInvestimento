@@ -1,0 +1,13 @@
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.deps.json
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.dll
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.pdb
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.API.Domain.dll
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.API.Domain.pdb
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.csproj.AssemblyReference.cache
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.AssemblyInfoInputs.cache
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.AssemblyInfo.cs
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.csproj.CoreCompileInputs.cache
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.csproj.CopyComplete
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.dll
+C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.API.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.API.Application.pdb

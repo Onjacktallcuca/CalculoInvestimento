@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API\\CalculoInvestimento.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Application\\CalculoInvestimento.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Application\\CalculoInvestimento.Application.csproj",
+        "projectName": "CalculoInvestimento.Application",
+        "projectPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Application\\CalculoInvestimento.Application.csproj",
+        "packagesPath": "C:\\Users\\gvmn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gvmn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj": {
+                "projectPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj",
+        "projectName": "CalculoInvestimento.Domain",
+        "projectPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj",
+        "packagesPath": "C:\\Users\\gvmn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gvmn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API\\CalculoInvestimento.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API\\CalculoInvestimento.csproj",
+        "projectName": "CalculoInvestimento",
+        "projectPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API\\CalculoInvestimento.csproj",
+        "packagesPath": "C:\\Users\\gvmn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gvmn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Application\\CalculoInvestimento.Application.csproj": {
+                "projectPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Application\\CalculoInvestimento.Application.csproj"
+              },
+              "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj": {
+                "projectPath": "C:\\Users\\gvmn\\source\\repos\\CalculoInvestimento\\Server\\CalculoInvestimento.API.Domain\\CalculoInvestimento.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

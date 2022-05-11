@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CalculoInvestimento.Domain.Tests
+build_property.ProjectDir = C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Domain.Tests\

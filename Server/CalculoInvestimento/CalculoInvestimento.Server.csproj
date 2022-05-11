@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>105f970a-95ae-389a-7414-51e2fb6c35bb</UserSecretsId>
+	<LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculoInvestimento.Domain\CalculoInvestimento.Domain.csproj" />
+    <ProjectReference Include="..\CalculoInvestimento.Application\CalculoInvestimento.Application.csproj" />
+  </ItemGroup>
+
+
+</Project>
