@@ -38,11 +38,10 @@ Após a importação de todas as bibliotecas, é hora de finalmente roda o front
 Obs: O sistema será iniciado através do browser default da máquina, caso queira testar com outro browser, o endereço do aplicativo é: http://localhost:4200/
 
 
-Testes
------------
 Testes do backend
-Os projeto de teste do bakend estão na pasta Server/Tests e finalizam com "Test". 
-Voce pode executar o teste através do visual studio clicando na solution com o botão direito e selecionando "Run Test" ou navegando até a raiz de cada solution e executando o comando 
+-----------
+Os projeto de teste do backend estão na pasta Server/Tests e finalizam com "Test". 
+Voce pode executar o teste através do visual studio clicando na solution com o botão direito e selecionando "Run Test" ou navegando até a raiz de cada solutio e executando o comando 
 >dotnet test 
 
 
