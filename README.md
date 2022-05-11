@@ -17,7 +17,9 @@ Backend
 Certifique-se que as porta locais https://localhost:5001 e https://localhost:5000 estejam desocupadas.
 
 Navegue até a pasta do servidor da API
+
 >cd CalculoInvestimento/Server/CalculoInvestimento
+
 Execute o servidor para subir para o host local
 >dotnet run
 
