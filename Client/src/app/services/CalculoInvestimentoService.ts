@@ -11,7 +11,7 @@ import { Config } from "./config";
   providedIn: 'root'
 })
 
-export class CalculoInvestimentoCDBService 
+export class CalculoInvestimentoService 
 {
   constructor(private httpClient: HttpClient) { }
 

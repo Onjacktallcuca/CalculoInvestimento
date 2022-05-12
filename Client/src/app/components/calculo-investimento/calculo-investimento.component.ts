@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { CurrencyPipe } from '@angular/common';
-import { CalculoInvestimentoCDBService } from '@app/services/CalculoInvestimentoCDBService';
+import { CalculoInvestimentoService } from '@app/services/CalculoInvestimentoService';
 import { ICalculoEntrada } from '@app/models/ICalculoEntrada';
 import { iCalculoSaida } from '@app/models/iCalculoSaida';
 
@@ -16,19 +16,18 @@ export class CalculoInvestimentoComponent implements OnInit
   form!: FormGroup;
   getCalculo = this.clearData();
   enviandoDados = false;
-  ivalor = 'R$ 1000,00';
-  imeses = '24';
+  
   erro  = false;
-
+  erroMessageRequiredField = "Campo com valor obrigatório.";
+  erroMesAcimaUm = "O prazo mínimo do investimento são dois meess.";
+  erroValor = "Informar um valor monetário positivo."
+  ivalor = 'R$ 10,00';
+  imeses = '24';
+  
   constructor(
     private _fb: FormBuilder,
-    private _service: CalculoInvestimentoCDBService,
-
-    /*
-    Claase do modulo Common para transofrma números em determiando formato/string,
-    Quando chamado sem o parâmetro de região, o padrão é o En-US.
-    */
-    private currencyPipe: CurrencyPipe
+    private _service: CalculoInvestimentoService,
+    private _currencyPipe: CurrencyPipe
   ) { }
 
   ngOnInit(): void 
@@ -44,10 +43,8 @@ export class CalculoInvestimentoComponent implements OnInit
 
   public enviaDados(): void 
   {
-    const valorSemFormatacao = parseFloat(this.gertOnlyNumber(this.form.value.valor)) / 100.0;
-  
     const dadosParaEnvio = {
-      valor: valorSemFormatacao,
+      valor: parseFloat(this.gertOnlyNumber(this.form.value.valor)) / 100.0,
       meses: +this.form.value.meses
     } as ICalculoEntrada;
     this.enviandoDados = true;
@@ -69,7 +66,7 @@ export class CalculoInvestimentoComponent implements OnInit
   {
     this.form = this._fb.group({
       valor: [this.ivalor, [Validators.required, Validators.min(0.01)]],
-      meses: [this.imeses, [Validators.required, Validators.min(2), ]]
+      meses: [this.imeses, [Validators.required, Validators.min(2), ]],
     });
   }
 
@@ -80,7 +77,7 @@ export class CalculoInvestimentoComponent implements OnInit
       if (f.valor) {
         const newValue = parseFloat(this.gertOnlyNumber(f.valor)) / 100.0;
         this.form.patchValue({
-          valor: this.currencyPipe.transform(newValue, 'BRL', 'symbol', '1.2-2')
+          valor: this._currencyPipe.transform(newValue, 'BRL', 'symbol', '1.2-2')
         }, { emitEvent: false });
       }
 
@@ -94,7 +91,7 @@ export class CalculoInvestimentoComponent implements OnInit
 
   private gertOnlyNumber(valor: string): string 
   {
-    return valor.replace(/\D/g, '').replace(/^0+/, '') || '0';
+    return valor.replace(/^0+/, '').replace(/\D/g, '') || '0';
   }
 
   private clearData(): iCalculoSaida 
@@ -122,5 +119,4 @@ export class CalculoInvestimentoComponent implements OnInit
   {
     return { 'is-invalid': field.errors && field.touched };
   }
-
 }

@@ -1,5 +1,5 @@
 <div class="row h-100 justify-content-right align-items-right">
-  <!-- <div class="col-10 col-md-8 col-lg-7"> -->
+  <div class="col-10 col-md-8 col-lg-7"> 
     <header class="d-flex align-items-center p-9 my-3 bg-secondary  ">
         <h3 class="h3 mb-0 lh-1"></h3>
     </header>
@@ -19,16 +19,14 @@
             <div class="form-group col-12 col-md-6">
               <label for="valor">Valor da aplica&ccedil;&atilde;o</label>
               <input type="text" name="valor" formControlName="valor" class="form-control text-end" autofocus [ngClass]="cssValidator(f.valor)">
-              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.required">Campo com valor obrigatório</div>
-              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.min">Informar um valor monetário positivo</div>
-              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.max">Valor máximo é R$ 999.999.999.999,99</div>
+              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.required">{{ erroMessageRequiredField }}</div>
+              <div class="invalid-feedback" *ngIf="f.valor.touched && f.valor.errors?.min">{{ erroValor }}</div> 
             </div>
             <div class="form-group col-12 col-md-6">
               <label for="meses">Qantidade de meses</label>
               <input type="text" name="meses" formControlName="meses" class="form-control text-end" [ngClass]="cssValidator(f.meses)">
-              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.required">É obrigatório</div>
-              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.min">O prazo mínimo são 2 meses</div>
-              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.max">O prazo máximo são 120 meses</div>
+              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.required">{{ erroMessageRequiredField }}</div>
+              <div class="invalid-feedback" *ngIf="f.meses.touched && f.meses.errors?.min">{{ erroMesAcimaUm }}</div> 
             </div>
           </div>
         </form>
@@ -78,7 +76,7 @@
         </div>
       </div>
     </div>
-  <!-- </div> -->
+  </div> 
 </div>
 <script lang="javascript">
   $(function () {
