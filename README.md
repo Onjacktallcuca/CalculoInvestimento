@@ -10,7 +10,7 @@ Baixar ou clonar o repositório:
 
 Execução
 =======
-Após o repositorio do sistema corretamente baixado, abra o prompt de comando e navegue até a pasta raíz do repositoróio.
+Após o repositorio do sistema corretamente baixado, abra o prompt de comando e navegue até a pasta raíz do repositorio.
 
 Backend
 -----------
@@ -44,7 +44,7 @@ Obs: O sistema será iniciado através do browser default da máquina, caso quei
 
 Testes do backend
 -----------
-Os projeto de teste do backend estão na pasta Server/Tests e finalizam com "Test". 
+Os projetos de teste do backend estão na pasta Server/Tests e finalizam com "Test". 
 Voce pode executar o teste através do visual studio clicando na solution com o botão direito e selecionando "Run Test" ou navegando até a raiz de cada solutio e executando o comando 
 >dotnet test 
 
