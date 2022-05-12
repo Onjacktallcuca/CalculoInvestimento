@@ -7,8 +7,8 @@ namespace CalculoInvestimento.Domain.Tests
         [Fact]
         public void VerificaValoresContrutor()
         {
-            const double valorBruto = 1000.98;
-            const double valorLiquido = 950.15;
+            const double valorBruto = 160156.80;
+            const double valorLiquido = 152024.00;
 
             var value = new CalculoInvestimento(ValorBruto: valorBruto, ValorLiquido: valorLiquido);
             

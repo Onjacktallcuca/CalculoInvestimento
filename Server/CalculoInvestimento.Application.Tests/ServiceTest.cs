@@ -17,7 +17,6 @@ namespace CalculoInvestimento.Tests
         [Fact]
         public void SemestralTest()
         {
-            //const double TAX_RATE = 0.225;
             var simul = new DadosEntrada(valor: 100, meses: 6);
             var result = new CalculoInvestimentoService().Get(simul);
             var expect = ValorEsperadoPorFaixa(simul, Taxas.SEMESTRAL);
@@ -29,7 +28,6 @@ namespace CalculoInvestimento.Tests
         [Fact]
         public void AnualTest()
         {
-            //const double TAX_RATE = 0.2;
             var data = new DadosEntrada(valor: 100, meses: 11);
             var res = new CalculoInvestimentoService().Get(data);
             var expect = ValorEsperadoPorFaixa(data, Taxas.ANUAL);
@@ -41,7 +39,6 @@ namespace CalculoInvestimento.Tests
         [Fact]
         public void BienalTest()
         {
-            //const double TAX_RATE = 0.175;
             var data = new DadosEntrada(valor: 100, meses: 21);
 
             var result = new CalculoInvestimentoService().Get(data);
@@ -57,7 +54,6 @@ namespace CalculoInvestimento.Tests
         [Fact]
         public void AcimaBienalTest()
         {
-            //const double TAX_RATE = 0.15;
             var data = new DadosEntrada(valor: 100, meses: 27);
 
             var result = new CalculoInvestimentoService().Get(data);

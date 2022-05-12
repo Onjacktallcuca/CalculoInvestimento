@@ -12,3 +12,17 @@ C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.Applic
 C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.dll
 C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.pdb
 C:\Users\gvmn\source\repos\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Application.dll.config
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Application.dll.config
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Application.deps.json
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Application.dll
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Application.pdb
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Domain.dll
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\bin\Debug\netcoreapp3.1\CalculoInvestimento.Domain.pdb
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.csproj.AssemblyReference.cache
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.AssemblyInfoInputs.cache
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.AssemblyInfo.cs
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.csproj.CoreCompileInputs.cache
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.csproj.CopyComplete
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.dll
+C:\Users\gvmn\source\repos\CalculoInvestimentoGit\CalculoInvestimento\Server\CalculoInvestimento.Application\obj\Debug\netcoreapp3.1\CalculoInvestimento.Application.pdb

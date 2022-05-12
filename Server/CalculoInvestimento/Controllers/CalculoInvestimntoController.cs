@@ -9,12 +9,13 @@ namespace CalculoInvestimento.Controllers
     public class CalculoInvestimentoController : ControllerBase
     {
         private readonly ICalculoInvestimentoService service;
-
+        
         public CalculoInvestimentoController(ICalculoInvestimentoService cdbService)
         {
             this.service = cdbService;
         }
 
+        
         [HttpPost]
         public ActionResult<Domain.CalculoInvestimento> Calculate(DadosEntrada data)
         {

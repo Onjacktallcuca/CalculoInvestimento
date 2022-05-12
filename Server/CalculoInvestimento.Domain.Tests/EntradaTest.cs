@@ -4,23 +4,21 @@ namespace CalculoInvestimento.Domain.Tests
 {
     /// <summary>
     /// Classe para teste de validade dos dados de entrada da consulta
-    /// Verifica se os dados que foram passados pela requisição, serão os mesmos que serão retornados
+    /// Validações básica como valores nulos ou negativos
     /// </summary>
     public class EntradaTest
     {
 
         [Fact]
-        public void VarificaValoresNegativos()
+        public void VerificaValoresNegativos()
         {
             Assert.Throws<Exception>(() => new DadosEntrada(valor: -1, meses: Taxas.MESES));
-
         }
 
         [Fact]
-        public void VarificaMes()
+        public void VerificaMes()
         {
             Assert.Throws<Exception>(() => new DadosEntrada(valor: Taxas.VALOR, meses: 0));
-
         }
         [Fact]
         public void VerificaValoresEntrada()
@@ -43,6 +41,5 @@ namespace CalculoInvestimento.Domain.Tests
             Assert.Equal(data.Meses, Taxas.VALOR);
             Assert.Equal(data.Valor, Taxas.MESES);
         }
-
     }
 }

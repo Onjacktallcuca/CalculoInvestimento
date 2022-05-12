@@ -10,16 +10,17 @@ namespace CalculoInvestimento.Tests
     public class ControllerTest
     {
         [Fact]
-        public void ShoudReturnCorrectCalculation()
+        public void VerificaCalculo()
         {
             var entrada = new DadosEntrada(100, 2);
-            var profitability = new Domain.CalculoInvestimento(1000, 950);
+            var lucroliquido = new Domain.CalculoInvestimento(1000, 950);
             
-            var mockService = new Mock<ICalculoInvestimentoService>();
-            mockService
+            //Mokc para gerar o comparável
+            var mock = new Mock<ICalculoInvestimentoService>();
+            mock
                 .Setup(svc => svc.Get(entrada))
-                .Returns(profitability);
-            var controller = new CalculoInvestimentoController(mockService.Object);
+                .Returns(lucroliquido);
+            var controller = new CalculoInvestimentoController(mock.Object);
 
             var result = controller.Calculate(entrada);
 
@@ -27,10 +28,10 @@ namespace CalculoInvestimento.Tests
         }
 
         [Fact]
-        public void ShouldReturnBadRequestWhenValueIsInvalid()
+        public void VerificaCalculoIvalido()
         {
-            var mockService = new Mock<ICalculoInvestimentoService>();
-            var controller = new CalculoInvestimentoController(mockService.Object);
+            var service = new Mock<ICalculoInvestimentoService>();
+            var controller = new CalculoInvestimentoController(service.Object);
 
             Assert.Throws<Exception>(() => controller.Calculate(new DadosEntrada(0, 2)));
         }
