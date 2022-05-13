@@ -38,8 +38,8 @@ namespace CalculoInvestimento.Domain.Tests
                 Valor = Taxas.VALOR
             };
 
-            Assert.Equal(data.Meses, Taxas.VALOR);
-            Assert.Equal(data.Valor, Taxas.MESES);
+            Assert.Equal(data.Meses, Taxas.MESES);
+            Assert.Equal(data.Valor, Taxas.VALOR);
         }
     }
 }

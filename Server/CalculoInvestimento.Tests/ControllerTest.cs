@@ -28,7 +28,7 @@ namespace CalculoInvestimento.Tests
         }
 
         [Fact]
-        public void VerificaCalculoIvalido()
+        public void VerificaCalculoInvalido()
         {
             var service = new Mock<ICalculoInvestimentoService>();
             var controller = new CalculoInvestimentoController(service.Object);

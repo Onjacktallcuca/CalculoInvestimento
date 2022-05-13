@@ -9,7 +9,7 @@ namespace CalculoInvestimento.Tests
     {
         private Domain.CalculoInvestimento ValorEsperadoPorFaixa(DadosEntrada calculo, double taxa)
         {
-            double valorLiquido = calculo.Valor * Math.Pow(1 + Taxas.RATE, calculo.Meses);
+            double valorLiquido = calculo.Valor * Math.Pow(Taxas.RATE, calculo.Meses);
             var taxas = (valorLiquido - calculo.Valor) * taxa;
             return new Domain.CalculoInvestimento(ValorBruto: valorLiquido, ValorLiquido: valorLiquido - taxas);
         }

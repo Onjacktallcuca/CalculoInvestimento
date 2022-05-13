@@ -29,6 +29,7 @@ namespace CalculoInvestimento.Service
         /// <summary>
         /// Nota: A fórmula calcula somente o valor de um mês. Ou seja, os rendimentos de cada mês devem ser 
         /// utilizados para calcular o mês seguinte
+        /// VF = VI x [1 + (CDI x TB)]
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
@@ -38,7 +39,7 @@ namespace CalculoInvestimento.Service
             double valor = data.Valor;
             for (int months = 0; months < data.Meses; months++)
             {
-                valorInicial = valor * 1 + Taxas.RATE;
+                valorInicial = valor * Taxas.RATE;
                 valor = valorInicial;
             }
 
@@ -57,15 +58,16 @@ namespace CalculoInvestimento.Service
         /// <returns></returns>
         private double CalcularDesconto (int meses)
         {
+            
             switch (meses)
             {
-                case <6:
+                case int n when (n <= 6):
                     return Taxas.SEMESTRAL;
 
-                case <= 12:
+                case int n when (n > 6 && n <= 12):
                     return Taxas.ANUAL;
 
-                case <= 24:
+                case int n when (n > 12 && n <= 24):
                     return Taxas.BIENAL;
 
                 default:

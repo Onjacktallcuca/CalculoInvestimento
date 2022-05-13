@@ -10,9 +10,9 @@ namespace CalculoInvestimento.Controllers
     {
         private readonly ICalculoInvestimentoService service;
         
-        public CalculoInvestimentoController(ICalculoInvestimentoService cdbService)
+        public CalculoInvestimentoController(ICalculoInvestimentoService service)
         {
-            this.service = cdbService;
+            this.service = service;
         }
 
         

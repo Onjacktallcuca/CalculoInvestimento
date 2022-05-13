@@ -24,10 +24,11 @@ namespace CalculoInvestimento.Domain
         /// Para medida do Exercício considerar os valores abaixo como fixos:
         ///          i.TB – 108%
         ///          ii.CDI – 0,9%
+        ///          [1 + (CDI x TB)]
         /// </summary>
         public const double CDI = 0.009;
         public const double TB = 1.08;
-        public const double RATE = CDI * TB;
+        public const double RATE = 1 + (CDI * TB);
 
         #region Tests
         public const int MESES = 12;
