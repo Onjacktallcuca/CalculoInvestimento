@@ -8,19 +8,19 @@ Montando o ambiente
 Baixar ou clonar o repositório:
 >git clone https://github.com/Onjacktallcuca/CalculoInvestimento.git 
 
-Execução
+Instalando o sistema
 =======
-Após o repositorio do sistema corretamente baixado, abra o prompt de comando e navegue até a pasta raíz do repositorio.
+Após o repositorio do sistema corretamente baixado, abra o prompt de comando e navegue até a pasta raíz do repositório (cd CalculoInvestimento).
 
 Backend
 -----------
-Certifique-se que as porta locais https://localhost:5001 e https://localhost:5000 estejam desocupadas.
+Certifique-se que as porta locais https://localhost:5001 e https://localhost:5000 estejam desocupadas (teste em qualquer brownser, o resultado esperado é um erro de ERR_CONNECTION_REFUSED).
 
 Navegue até a pasta do servidor da API
 
->cd CalculoInvestimento/Server/CalculoInvestimento
+>cd Server/CalculoInvestimento
 
-Execute o servidor para subir para o host local
+Execute o servidor para subir para o host da API localmente
 >dotnet run
 
 O sistema deverá subir a API para o ambiente local de host no seguinte endereço: https://localhost:5001/api/CalculoInvestimento
